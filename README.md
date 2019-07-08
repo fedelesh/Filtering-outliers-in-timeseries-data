@@ -1,4 +1,4 @@
-# Filtering outliers for times series data
+# Filtering outliers in times series data
 
 
 METHODOLOGY:
