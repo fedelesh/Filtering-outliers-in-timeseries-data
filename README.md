@@ -1,7 +1,4 @@
-# Filtering_outliers
-python filtering_outliers.py --w 15 --th 30 --portfolio "Credit Spread" --cores 4
-
-
+# Filtering outliers for times series data
 
 
 METHODOLOGY:
@@ -9,6 +6,9 @@ METHODOLOGY:
 2. calculate the difference between each element and median
 3. calculate the median for this difference
 4. Check is the difference divided on median of this difference bigger of some threshold
+
+
+python filtering_outliers.py --w 15 --th 30 --portfolio "Portfolio_name" --cores 4
 
 --s,
 --sname,          "timeseries sname for calculating"
